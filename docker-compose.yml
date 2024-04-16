@@ -1,0 +1,11 @@
+version: '3'
+services:
+  apache:
+    build: .
+    restart: 'no'
+    ports:
+      - "8080:80"
+    environment:
+      - 'XDEBUG_MODE=debug'
+    volumes:
+      - ".:/var/www/html"

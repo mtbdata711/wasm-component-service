@@ -1,0 +1,12 @@
+{
+    "name": "mtbdata711/wasm-component-service",
+    "version": "0.0.1",
+    "description": "JavaScript component rendering in PHP",
+    "minimum-stability": "dev",
+    "require": {
+      "extism/extism": "dev-main"
+    },
+    "scripts": {
+      "bootstrap": "./bootstrap.sh"
+    }
+  }
